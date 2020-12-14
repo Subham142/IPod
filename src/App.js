@@ -1,5 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Wheel from "./screens/Wheel";
+import Screen from "./screens/Screen";
+import Coverflow from "./screens/Coverflow";
+import Games from "./screens/Games";
+import Settings from "./screens/Settings";
+import Music from "./screens/Music";
+import Video from "./screens/Video";
+import Artist from "./screens/Artist";
+import Playlist from "./screens/Playlist";
+
 
 function App() {
   return (
