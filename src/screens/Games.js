@@ -7,7 +7,7 @@ const Games = () => {
       <Headbar />
       <img
         id="game"
-        src="https://media3.giphy.com/media/PNxqTfwURXI2sDn9ie/giphy.gif?cid=ecf05e475f92cfrzuirtcb438amg71dst7qycvthxvowjrbs&rid=giphy.gif"
+        src="https://awesomegifs.com/wp-content/uploads/nintendos-world.gif"
         alt="game-img"
       />
     </div>

@@ -38,7 +38,7 @@ class App extends React.Component {
     if (showScreen === 0) {
       var prevSelected = selected;
       //if rotated in one direction(distance from last is positive)
-      if (h === 1) selected = (prevSelected + 1) % 6;
+      if (h === 1) selected = (prevSelected + 1) % 4;
       //if rotated in another direction(distance from last is negative)
       else if (h === -1) {
         selected = selected - 1;

@@ -42,19 +42,19 @@ class Artist extends React.Component {
           <input type="radio" name="slider" id="s4" />
           <input type="radio" name="slider" id="s5" />
           <label for="s1" id="slide1">
-            <p className="singers-name"> zayn malik</p>
+            <p className="singers-name">Arijit Singh</p>
           </label>
           <label for="s2" id="slide2">
-            <p className="singers-name">eminem</p>
+            <p className="singers-name">Jubin Nautyal</p>
           </label>
           <label for="s3" id="slide3">
-            <p className="singers-name">taylor swift</p>
+            <p className="singers-name">KK</p>
           </label>
           <label for="s4" id="slide4">
-            <p className="singers-name">john legend</p>
+            <p className="singers-name">Popon</p>
           </label>
           <label for="s5" id="slide5">
-            <p className="singers-name">adele</p>
+            <p className="singers-name">Sonu Nigam</p>
           </label>
         </div>
       </div>
