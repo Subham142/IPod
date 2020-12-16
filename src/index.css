@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: lightgreen;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDxs2HdctuMv2UpqMKEG88nKFt7Vp_7cICTQ&usqp=CAU);
+  background-image: url('background.jpg');
   background-position: center;
   background-size: cover;;
   
@@ -20,19 +20,17 @@ code {
 /*wheel*/
 .container {
   height: 300px;
-  -webkit-box-reflect: below 3px -webkit-gradient(linear, right top, right
-        bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.2)));
-  box-shadow: inset 2px 0px 20px 0px black;
-  width: 200px;
-  margin: auto;
-
-  /*margin-top: 60px;*/
-  background: linear-gradient(45deg, #000000, #106690, #00000026);
-  border-radius: 14px;
+    -webkit-box-reflect: below 3px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.2)));
+    box-shadow: inset 2px 0px 20px 0px black;
+    width: 200px;
+    margin: auto;
+    /* margin-top: 60px; */
+    background: linear-gradient(45deg, #705e5e, #72c2e9, #00000026);
+    border-radius: 14px;
 }
 .wheel {
   border-radius: 50%;
-  background-color: white;
+  background-color: #d1cdff;
   height: 130px;
   width: 130px;
   margin: auto;
@@ -41,9 +39,6 @@ code {
   top: 162px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .main-btn {
@@ -108,7 +103,7 @@ code {
 .screen {
   height: 150px;
   width: 180px;
-  background-image: url(https://t3.ftcdn.net/jpg/02/37/67/58/240_F_237675815_zvDBYgwQgUFhHgXXbp2NfbwuByp6WiQM.jpg);
+  background-image: url('./screens/screenbg.png');
   background-position: center;
   background-size: cover;
   margin: auto;
