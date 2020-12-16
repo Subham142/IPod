@@ -162,13 +162,13 @@ h1 {
 /*inner-elements*/
 .innerScreen {
   height: 149px;
-  width: 180px;
-  background-color: white;
-  margin: auto;
-  position: absolute;
-  left: 40.2%;
-  top: 6%;
-  z-index: 1;
+    width: 180px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    left: 44.2%;
+    top: 4%;
+    z-index: 1;
 }
 
 @media screen and (min-width: 410px) and (max-width: 600px) {
